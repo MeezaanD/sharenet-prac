@@ -1,6 +1,11 @@
+const express = require('express');
+const dotenv = require('dotenv');
 const config = require('./config/config');
 const routes = require('./routes');
-const cors = require('cors');
 
-app.use(cors({ origin: '*', credentials: true }));
-routes.startServer(config);
+dotenv.config();
+
+const app = express();
+
+// Include your routes and configurations
+routes.startServer(app, config);
