@@ -2,24 +2,22 @@
 <section id="landing">
 <div class="container-fluid mt-3">
 <h2>Sharenet Technical Assessment</h2>
-	<div class="row">
-	<div class="d-flex gap-2">
+	<div class="d-flex gap-1">
+	<div v-show="showSearch" class="mt-2 w-100">
+		<input
+		v-model="searchTerm"
+		type="text"
+		class="form-control w-100"
+		placeholder="Search by Full Name"
+		/>
+	</div>
 		<button class="btn btn-primary" @click="toggleSearch">
 		{{ showSearch ? "Cancel" : "Search" }}
 		</button>
 	</div>
-	<div v-show="showSearch" class="mt-2">
-		<input
-		v-model="searchTerm"
-		type="text"
-		class="form-control w-25"
-		placeholder="Search by Full Name"
-		/>
-	</div>
-	</div>
 	<div class="table-responsive table-wrapper mt-3">
 	<table class="table table-hover table-bordered caption-top">
-	<caption>List of users</caption>
+	<caption>List of Stocks</caption>
 		<thead>
 		<tr>
 			<th scope="col">Full Name</th>

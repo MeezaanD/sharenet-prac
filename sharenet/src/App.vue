@@ -9,6 +9,7 @@
 import { defineComponent } from 'vue';
 import Navbar from './components/NavBar.vue';
 
+
 export default defineComponent({
 	name: 'LandingPageView',
 	components: {

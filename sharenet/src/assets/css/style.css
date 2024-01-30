@@ -18,3 +18,15 @@ thead {
 	background-color: white;
 }
 
+ul {
+	list-style: none;
+}
+
+span {
+	color: rgb(38, 198, 218);
+}
+
+footer {
+	background-color: #17a2b8;
+	min-height: 5vh;
+}
