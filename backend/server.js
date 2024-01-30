@@ -7,7 +7,7 @@ const cors = require('cors');
 dotenv.config();
 
 const app = express();
-app.use(cors({ origin: '*' }));
+app.use(cors());
 
 // Include your routes and configurations
 routes.startServer(app, config);
