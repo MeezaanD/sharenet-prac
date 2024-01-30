@@ -1,16 +1,22 @@
-<template>
+	<template>
 	<section id="contact">
-
+		<div class="container-fluid mt-3">
+		<h2>Contact Us</h2>
+		</div>
 	</section>
-</template>
+	</template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'; 
+	<script lang="ts">
+	import { defineComponent } from 'vue';
 
-export default defineComponent({
-	name: 'ContactPageView',
+	export default defineComponent({
+	name: 'contact',
 	components: {
 
 	},
-});
-</script>
+	});
+	</script>
+
+	<style>
+	@import "../assets/css/style.css";
+	</style>

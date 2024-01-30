@@ -6,3 +6,15 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
+
+.table-wrapper {
+	height: 85vh;
+	overflow-y: auto;
+}
+
+thead {
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
