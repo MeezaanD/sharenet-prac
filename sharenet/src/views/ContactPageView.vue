@@ -1,60 +1,49 @@
 <template>
 	<section id="contact">
 		<div class="container-fluid mt-3">
-		<h2>Contact Us</h2>
-		<router-link
-			class=""
-			to="/"
-		><i class="bi bi-arrow-left"></i> Return Home</router-link>
-		<div class="row pt-5 text-center">
-			<div class="col-lg-6 col-md-6 col-sm-12 pt-lg-5">
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.4949556038996!2d18.627532676377612!3d-33.87690447322349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc41e6218f7ab3%3A0xbdd802ca53b92d43!2sSharenet%20(Pty)%20Ltd!5e0!3m2!1sen!2sza!4v1706621523182!5m2!1sen!2sza"
-				width="600"
-				height="450"
-				style="border: 0"
-				allowfullscreen=""
-				loading="lazy"
-				referrerpolicy="no-referrer-when-downgrade"
-			></iframe>
+			<h2>Contact Us</h2>
+			<router-link class="" to="/"><i class="bi bi-arrow-left"></i> Return Home</router-link>
+			<div class="row pt-5 text-center">
+				<div class="col-lg-6 col-md-6 col-sm-12 pt-lg-5">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.4949556038996!2d18.627532676377612!3d-33.87690447322349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc41e6218f7ab3%3A0xbdd802ca53b92d43!2sSharenet%20(Pty)%20Ltd!5e0!3m2!1sen!2sza!4v1706621523182!5m2!1sen!2sza"
+						width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 text-start pt-5">
+					<h2>Contact Information</h2>
+					<h3>FIND US <span><a target="_blank" href="https://www.sharenet.co.za/">HERE</a></span></h3>
+					<div class="d-flex pt-3">
+						<h6 class="w-25">HEAD OFFICE</h6>
+						<ul>
+							<li>301, 3rd Floor Imperial Terraces</li>
+							<li>Tyger Waterfront</li>
+							<li>Carl Cronje Drive</li>
+							<li>Bellville, Cape Town</li>
+							<li>7530</li>
+						</ul>
+					</div>
+					<div class="d-flex pt-3">
+						<h6 class="w-25">TELEPHONE</h6>
+						<ul>
+							<li>(021) 700 4800</li>
+							<li>+27 21 700 4800 (International)</li>
+						</ul>
+					</div>
+					<div class="d-flex pt-3">
+						<h6 class="w-25">EMAIL</h6>
+						<ul>
+							<li>support@sharenet.co.za</li>
+						</ul>
+					</div>
+					<div class="d-flex pt-3">
+						<h6 class="w-25">Operation Hours</h6>
+						<ul>
+							<li>Monday - Friday, 8am - 5pm</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 text-start pt-5">
-			<h2>Contact Information</h2>
-			<h3>FIND US <span><a
-					target="_blank"
-					href="https://www.sharenet.co.za/"
-				>HERE</a></span></h3>
-			<div class="d-flex pt-3">
-				<h6 class="w-25">HEAD OFFICE</h6>
-				<ul>
-				<li>301, 3rd Floor Imperial Terraces</li>
-				<li>Tyger Waterfront</li>
-				<li>Carl Cronje Drive</li>
-				<li>Bellville, Cape Town</li>
-				<li>7530</li>
-				</ul>
-			</div>
-			<div class="d-flex pt-3">
-				<h6 class="w-25">TELEPHONE</h6>
-				<ul>
-				<li>(021) 700 4800</li>
-				<li>+27 21 700 4800 (International)</li>
-				</ul>
-			</div>
-			<div class="d-flex pt-3">
-				<h6 class="w-25">EMAIL</h6>
-				<ul>
-				<li>support@sharenet.co.za</li>
-				</ul>
-			</div>
-			<div class="d-flex pt-3">
-				<h6 class="w-25">Operation Hours</h6>
-				<ul>
-				<li>Monday - Friday, 8am - 5pm</li>
-				</ul>
-			</div>
-			</div>
-		</div>
 		</div>
 	</section>
 </template>
@@ -63,8 +52,8 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-name: "contact",
-components: {},
+	name: "contact",
+	components: {},
 });
 </script>
 
