@@ -4,15 +4,16 @@
 			<h2>Sharenet Technical Assessment</h2>
 			<div class="d-flex gap-1">
 				<div v-show="showSearch" class="mt-2 w-100">
-					<input v-model="searchTerm" type="text" class="form-control search w-100" placeholder="Search by Full Name" />
+					<input v-model="searchTerm" type="text" class="form-control search w-100"
+						placeholder="Search by Full Name" />
 				</div>
 				<button class="btn btn-primary" @click="toggleSearch">
 					{{ showSearch ? "Cancel" : "Search" }}
 				</button>
 			</div>
-			<div class="table-responsive bg-transparent table-wrapper mt-3">
+			<div class="table-responsive bg-transparent table-wrapper pt-3">
 				<table class="table table-hover bg-transparent table-bordered caption-top text-light">
-					<caption>List of Stocks</caption>
+					<caption class="text-dark">List of Stocks</caption>
 					<thead>
 						<tr>
 							<th scope="col">Full Name</th>
