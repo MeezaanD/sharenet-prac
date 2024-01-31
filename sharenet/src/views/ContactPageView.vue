@@ -2,7 +2,7 @@
 	<section id="contact">
 		<div class="container-fluid mt-3">
 			<h2>Contact Us</h2>
-			<router-link class="" to="/"><i class="bi bi-arrow-left"></i> Return Home</router-link>
+			<router-link to="/"><i class="bi bi-arrow-left"></i> Return Home</router-link>
 			<div class="row pt-5 text-center">
 				<div class="col-lg-6 col-md-6 col-sm-12 pt-lg-5">
 					<iframe

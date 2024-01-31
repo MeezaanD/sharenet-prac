@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
 
+/* General Styling */
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
+
+ul {
+	list-style: none;
+}
+
+span {
+	color: rgb(38, 198, 218);
+}
+
+/* Table Styling */
 
 .table-wrapper {
 	height: 85vh;
@@ -18,15 +30,36 @@ thead {
 	background-color: white;
 }
 
-ul {
-	list-style: none;
+/* Card Styling */
+
+.card {
+	width: 24rem;
 }
 
-span {
-	color: rgb(38, 198, 218);
+.card:hover {
+	box-shadow: inset -20px -20px 60px #bebebe,
+	inset 20px 20px 60px #ffffff !important;
 }
 
-footer {
-	background-color: #17a2b8;
-	min-height: 5vh;
+.card-header {
+	height: 5vh;
+}
+
+.card-venue {
+	font-weight: 600;
+	font-size: large;
+}
+
+.card-date {
+	font-weight: 300;
+}
+
+.card-status {
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 576px) {
+	.card {
+		width: 100%;
+	}
 }
