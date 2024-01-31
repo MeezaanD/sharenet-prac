@@ -1,10 +1,10 @@
-Sharenet Project Documentation
+# Sharenet Project Documentation
 
-Overview
+# Overview
 
 This project involves creating a responsive Vue.js Single Page Application (SPA) that interacts with a Sharenet API for displaying spot prices. The application consists of three pages: a landing page displaying spot prices, a "Contact Us" page with Sharenet address details, and a venue/workshop page. Additionally, there are extra features such as sorting prices, searching for full names, and handling workshop bookings.
 
-Live URLs
+# Live URLs
 API Endpoint: https://sharenet-prac-api.onrender.com/workshops
 Frontend App: https://sharenet-prac-88723.web.app/
 
