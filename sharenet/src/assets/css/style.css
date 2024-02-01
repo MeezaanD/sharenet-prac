@@ -56,6 +56,10 @@ table, .info {
 	opacity: 70% !important;
 }
 
+table {
+	min-height: 75vh;
+}
+
 .table-wrapper {
 	height: 85vh;
 	overflow-y: auto;
