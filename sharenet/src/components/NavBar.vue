@@ -1,5 +1,5 @@
 <template>
-	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
 			<a class="nav-link" href="/"><i class="bi bi-house"></i> Home</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -30,3 +30,7 @@ export default defineComponent({
 	},
 });
 </script>
+
+<style>
+@import url("../assets/css/style.css");
+</style>

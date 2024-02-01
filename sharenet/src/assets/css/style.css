@@ -13,11 +13,52 @@ ul {
 	list-style: none;
 }
 
+caption {
+	font-weight: 900;
+}
+
 span {
 	color: rgb(38, 198, 218);
 }
 
+#landing, #venues, #contact {
+	min-height: 95vh;
+	background-image: url("https://i.postimg.cc/Ghgsr2k6/lucas-ludwig-k-T-jqk-Mm-Fc-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.navbar {
+	background: #bac1db;
+	background-size: cover;
+	width: 100%;
+}
+
+.navbar>.container-fluid {
+	background: #bac1db;
+	background-size: cover;
+	width: 100%;
+}
+
+.nav-link {
+	font-weight: 700 !important;
+}
+
+input, select, option, label {
+	font-weight: 700 !important;
+	background-color: transparent !important;
+}
+
 /* Table Styling */
+
+table, .info {
+	opacity: 70% !important;
+}
+
+table {
+	min-height: 75vh;
+}
 
 .table-wrapper {
 	height: 85vh;
